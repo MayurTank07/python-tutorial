@@ -1,0 +1,19 @@
+
+USER INPUT IN PYTHON ?
+
+- To take an user input from user we use input() method.
+- BY default, input() method take string input 
+
+or in technical words, 
+
+    - input() is a built in function in python which is used to take user input from user and by default it takes input as a string datatype
+
+Example 1 - 
+
+    name = input("Enter ur name : ")
+    print(name)
+
+Example 2 - 
+
+    num = int(input("Enter a number :"))
+    print("Square of a number  : " , (num*num))

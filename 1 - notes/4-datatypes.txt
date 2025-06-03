@@ -1,0 +1,53 @@
+
+1. WHAT IS DATATYPE IN PYTHON ?
+
+- DATATYPE IS USED TO SPECIFY WHICH TYPE OF DATA WE ARE GOING TO STORE INSIDE OF VARIABLE. 
+
+- THERE ARE MULTIPLE TYPES OF DATATYPE IN PYTHON - 
+
+    1. Numeric Types:
+        
+        int: Represents integers (whole numbers), such as 10, -5, 0.
+        
+        float: Represents floating-point numbers (numbers with 
+        decimal points), such as 3.14, -2.5.
+        
+        complex: Represents complex numbers, such as 2 + 3j.
+    -----------------------------------------------------------------
+    2. Sequence Types:
+        
+        str: Represents strings (sequences of characters), such as "hello", 'world'.
+        
+        list: Represents ordered, mutable collections of items, enclosed in square brackets, such as [1, 2, "apple"].
+        
+        tuple: Represents ordered, immutable collections of items, enclosed in parentheses, such as (1, 2, "apple").
+        range: Represents a sequence of numbers, often used in loops.
+    ----------------------------------------------------------------
+    3. Mapping Type:
+        
+        dict: Represents key-value pairs, enclosed in curly brackets, such as {"name": "John", "age": 30}.
+    ----------------------------------------------------------------
+    4. Set Types:
+        
+        set: Represents unordered collections of unique items, enclosed in curly brackets, such as {1, 2, 3}.
+        frozenset: Represents an immutable version of a set.
+    ----------------------------------------------------------------
+    5. Boolean Type:
+        
+        bool: Represents boolean values, either True or False.
+    ----------------------------------------------------------------
+    6. Binary Types:
+        
+        bytes: Represents immutable sequences of single bytes.
+        
+        bytearray: Represents mutable sequences of single bytes.
+        
+        memoryview: Allows access to the internal data of an object without copying.
+
+        Example - 
+
+        The bin() function converts an integer to its binary representation as a string, prefixed with "0b".
+            
+            number = 10
+            binary_string = bin(number)
+            print(binary_string)  # Output: 0b1010

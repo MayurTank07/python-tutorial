@@ -68,3 +68,10 @@ Example 1 -
     print("Generated email address : ")
     print(name , "gmail.com", sep = "@")
 
+
+
+NOTE - 
+
+python 3 --> print("Hello")
+
+python 2 --> print "Hello" 
