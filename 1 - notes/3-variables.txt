@@ -1,0 +1,79 @@
+
+1. WHAT IS VARIABLE ?
+
+- VARIABLE IS A CONTAINER WHICH IS USED TO STORE DATA OR VALUES 
+- THERE ARE FOUR TYPES OF VARIABLE IN PYTHON -
+    local, global, instance, and class variables
+
+
+1. LOCAL VARIABLE - which is created inside of funtion 
+
+    def msg():
+        name = "dex"  // local variable
+        print(name)
+    
+    msg()
+    print(name)  // error - we cannot access local variable outside of function
+
+
+2. GLOBAL VARIABLE - which is declared globally or you can say outside of function 
+
+    name = "raj"  // global variable
+
+    def msg():
+        print(name)
+    
+    def display():
+        print("My name is ", name)
+
+    msg()
+    display()
+
+    print(name)
+
+3. INSTANCE VARIABLE - 
+
+- Instance variables in Python are variables that belong to the specific instance of a class. Each object of a class has its own copy of instance variables, meaning that their values can differ between objects.
+
+class student:
+   
+    def __init__(self, name, rollno):
+                  s1  , dex , 69
+                   s2  , raj, 10
+
+        # instance variable
+        self.name = name
+        self.rollno = rollno
+
+s1 = student("dex", 69)
+s2 = student("raj", 10)
+
+
+
+4. CLASS VARIABLE 
+
+- Class variables in Python are variables that are defined within a class but outside of any methods. They are shared by all instances (objects) of the class. Unlike instance variables, which are unique to each instance, class variables have the same value for all instances of the class. 
+
+Example - 
+
+    class Company:
+        
+        comp_name = "STARX"  // class variable
+
+        def __init__(self, emp_name, emp_sal):
+            self.emp_name = emp_name   // instance variable 
+            self.emp_sal = emp_sal
+        
+        def display(self):
+            print("Emp Name : ", self.emp_name)
+            print("Emp Sal : ", self.sal)
+            print("Company name : ", comp_name)
+
+
+    c1 = company("dex", 99999)
+    c2 = company("chlore", 88888)
+
+    c1.display()
+    c2.display()
+
+

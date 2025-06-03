@@ -1,0 +1,40 @@
+
+1. WHAT IS PYTHON ?
+
+- Python is a higher level programming language which is used to create web apps, software, and also in ai/ml, etc. 
+
+- it has simple syntax or we can say it has a readble syntax. 
+
+
+2. WHAT PYTHON CAN DO ?
+
+- Python can be used to create web applications on server side. 
+
+- Python can be used to do complex mathematics
+
+- Python can be used to do rapid prototyping, or production-ready software.
+
+- And, so on.
+
+
+3. PYTHON SYNTAX ?
+
+- Python syntax is much more simplier than any other language. 
+
+Example - 
+
+if you want to print something you just write -
+       print("Hello World !!")
+
+python doesn't use ; 
+we don't need to write a structure to print something
+
+NOTE : We don't need to write whole structure of code to print something just as we did in java.
+
+
+4. Installation of Python ?
+
+- Visit this link and download latest python 
+
+https://www.python.org/downloads/
+

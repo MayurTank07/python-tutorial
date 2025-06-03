@@ -1,0 +1,70 @@
+To display or to get an output we use 
+
+print() function 
+
+
+print() - print() is a built in function of python which is use to get an output. 
+
+or in technical terms, 
+
+The print() function in Python is used to display output on the screen or other standard output devices. It takes one or more arguments, which can be strings, numbers, or other objects, and converts them to a string representation before printing them.
+
+Examples - 
+
+1. print("Hello World")
+
+// whatever you write inside of " " is known as String
+
+2. print('Hello World')
+
+// " " or ' ' both are treated same in python and both will be consider as string
+
+
+3. Printing values - 
+
+Lets create a variable in python and print its value - 
+
+Example 1 - 
+    num = 10
+    print(num)
+
+Example 2 - 
+    num = 10
+    print("Number is ", num)
+
+
+/* 
+
+JUST FOR UNDERSTANDING PURPOSE -
+
+    def msg(self, name, age):
+        print(name)
+
+
+    msg("dex", 24)   
+
+
+    def print(self, etc, etc):
+        //code
+
+*/ 
+
+
+4. SEP ARGUMENT - 
+
+- The separator between the arguments to print() function in Python is space by default (softspace feature) , which can be modified and can be made to any character, integer or string as per our choice. 
+
+    print("Hello", "World")  --> HelloWorld
+
+    print("Hello", "World", sep = ' ')  --> Hello World
+
+    print("Hello", "World", sep = '-')  --> Hello-World
+
+    print("raj", "gmail.com", sep = '@')  --> raj@gmail.com
+
+Example 1 - 
+
+    name = input("Enter your name : ")
+    print("Generated email address : ")
+    print(name , "gmail.com", sep = "@")
+
