@@ -1,0 +1,69 @@
+
+LIST -
+
+- LIST IS A BUILT IN DATATYPE OF PYTHON WHCIH IS TO STORE MULTIPLE DATA OR VALUE IN A SINGLE VARIABLE. 
+
+- PROPERTIES OF LIST - 
+    1. ORDERED
+    2. CHANGABLE
+    3. INDEXED
+    4. ALLOW DUPLICATE VALUES
+
+- REPRESENTATION OF LIST --> [ ]
+
+EXAMPLE 1 - 
+
+    mylist = [ "dex", "krys", "chlore", "klaus" ]
+    print(mylist)
+
+
+- LIST ACTS SAME AS ARRAY.
+- BUT IN PYTHON ARRAYS ARE DIFFRENTLY TREATED AND LIST DIFFERENTLY TREATED. 
+
+Example 2 - 
+
+    import numpy as np
+
+    arr = np.array([1, 2, 3, 4, 5])
+
+    mylist = [1, 2, 3, 4, 5]
+
+    print(arr)
+    print(mylist)
+
+    print(type(arr))
+    print(type(mylist))
+
+- LIST HAS MULTIPLE METHODS --> 
+
+    1. list() --> this is a list constructor which is used to create list
+
+    2. append()	Adds an element at the end of the list
+
+    3. clear()	Removes all the elements from the list
+
+    4. copy()	Returns a copy of the list
+
+    5. count()	Returns the number of elements with the specified value
+
+    6. extend()	Add the elements of a list (or any iterable), to the end of the current list
+
+    7. index()	Returns the index of the first element with the specified value
+
+    8. insert()	Adds an element at the specified position
+
+    9. pop()	Removes the element at the specified position
+
+    10. remove()	Removes the item with the specified value
+
+    11. reverse()	Reverses the order of the list
+
+    12. sort()	Sorts the list
+
+
+
+    
+
+
+
+
