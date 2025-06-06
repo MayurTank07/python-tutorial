@@ -17,3 +17,8 @@ Example 2 -
 
     num = int(input("Enter a number :"))
     print("Square of a number  : " , (num*num))
+
+Example 3 - 
+
+    num = float(input("Enter a number :"))
+    print("Square of a number  : " , (num*num))

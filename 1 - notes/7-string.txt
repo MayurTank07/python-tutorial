@@ -1,0 +1,112 @@
+
+What is String ?
+
+- String is a collection of characters or it is a sequence of data. 
+- which can be represented by " " or ' ' in python. 
+
+Example - 
+
+    name = "dexter"
+    fullname = 'dexter morgan'
+
+    print(name)
+    print(fullname)
+
+
+- String has index number to access individual character of it
+
+    print(name[2])  --> x
+
+- Multi line String 
+
+--> To store multiple lines inside of a single variable we use multiline string 
+
+Example 1 - 
+
+    sentence = """
+        this is a msg
+        this is a msg1
+        this is a msg2
+        this is a msg3
+        this is a msg4
+        this is a msg5
+    """
+
+    print(sentence)
+
+Example 2 - 
+
+    sentence = '''
+        this is a msg
+        this is a msg1
+        this is a msg2
+        this is a msg3
+        this is a msg4
+        this is a msg5
+    '''
+
+    print(sentence)
+
+
+- Since strings are arrays, we can loop through the characters in a string, with a for loop.
+    Example - 
+        for x in "banana":
+        print(x)
+
+
+- To get the length of a string, use the len() function.
+
+    a = "Hello, World!"
+    print(len(a))
+
+- To check if a certain phrase or character is present in a string, we can use the keyword in.
+
+    txt = "The best things in life are free!"
+    print("free" in txt) --> True
+
+
+    txt = "The best things in life are free!"
+    if "free" in txt:
+        print("Yes, 'free' is present.")
+
+- To check if a certain phrase or character is NOT present in a string, we can use the keyword not in.
+
+    txt = "The best things in life are free!"
+    print("expensive" not in txt)
+
+    txt = "The best things in life are free!"
+    if "expensive" not in txt:
+        print("No, 'expensive' is NOT present.")
+
+
+
+
+
+
+name = "Dexter Morgan"
+
+sen = """
+This occurs automatically when Python converts a data type to another, usually from a smaller to a larger data type, to prevent data loss. For example, when adding an integer to a float, Python will automatically convert the integer to a float before performing the addition.
+"""
+
+
+Output --> 
+
+1. xter
+2. Morgan
+3. automatically when Python converts a data type to another
+
+4. DEXTER MORGAN
+5. dexter morgan
+6. dexter - This occurs automatically when Python converts a data type to another
+lowercase, sep, slicing
+
+print(lower(name[0:6]), sen[0:x], sep = " - ")
+
+
+
+
+
+
+
+

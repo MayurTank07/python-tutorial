@@ -1,0 +1,53 @@
+
+TYPE CASTING - 
+
+- Type casting, also known as type conversion, is the process of changing the data type of a variable to another data type. This can be done implicitly or explicitly.
+
+
+Example 1 - 
+
+    num = 10
+
+    new_num = float(num)  --> 10.0
+
+    print(new_num) 
+
+Implicit Type Conversion
+    - This occurs automatically when Python converts a data type to another, usually from a smaller to a larger data type, to prevent data loss. For example, when adding an integer to a float, Python will automatically convert the integer to a float before performing the addition.
+    
+    Example 2 
+
+        x = 10
+        y = 2.5
+        z = x + y # x is implicitly converted to float
+        print(z) # Output: 12.5
+        print(type(z)) # Output: <class 'float'>
+
+
+Explicit Type Conversion
+
+    - This is done manually by the programmer using built-in functions. Some common type casting functions include:
+
+        int(): Converts a value to an integer.
+        float(): Converts a value to a float.
+        str(): Converts a value to a string.
+        list(): Converts a value to a list.
+        tuple(): Converts a value to a tuple.
+        set(): Converts a value to a set.
+        dict(): Converts a value to a dictionary.
+        hex(): Converts an integer to a hexadecimal string.
+        oct(): Converts an integer to an octal string.
+        ord(): Converts a character to its ASCII number.
+        chr(): Converts an integer to its corresponding ASCII character.
+
+        a = "123"
+        b = int(a) # a is explicitly converted to integer
+        print(b) # Output: 123
+        print(type(b)) # Output: <class 'int'>
+
+        c = 3.14
+        d = str(c) # c is explicitly converted to string
+        print(d) # Output: 3.14
+        print(type(d)) # Output: <class 'str'>
+
+        type() is a built in function in python which is used to display the datatype of a variable.

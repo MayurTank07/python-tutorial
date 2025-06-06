@@ -1,0 +1,20 @@
+
+
+BOOLEAN 
+
+- BOOLEAN IS A DATATYPE WHICH REPRESENTS TRUE AND FALSE VALUE.
+
+- we can use boolean in conditional statements.
+
+Example - 
+
+    a = True
+    b = False
+
+    print(a)
+    print(b)
+
+
+    num = 10
+    if num > 0:
+        print()
