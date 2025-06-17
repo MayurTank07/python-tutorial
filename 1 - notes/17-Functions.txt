@@ -1,0 +1,18 @@
+
+    WHAT IS A FUNCTION ?
+
+    -->  A FUNCTION IS A BLOCK OF CODE WHERE WE WRITE LOGIC AND IT WILL BE RUN WHEN ITS CALLED. 
+
+    --> TO CREATE A FUNCTION WE USE - 'def' keyword.
+
+    --> SYNTAX -
+
+        # function defination  
+            def func_name():
+                //CODE
+                //CODE
+            
+        #function call
+            func_name()
+            
+    
