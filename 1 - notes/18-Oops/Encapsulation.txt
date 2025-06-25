@@ -1,0 +1,23 @@
+
+ENCAPSULATION --> 
+
+ - BINDING OR WRAPPING ALL THE DATA TOGETHER IN A SINGLE UNIT.
+    e.g - modules, classes 
+
+ - Encapsulation in Python is one of the fundamental principles of Object-Oriented Programming (OOP).
+
+ - It refers to bundling data (attributes) and methods (functions) that operate on the data into a single unit.
+
+
+Python Encapsulation Syntax- 
+
+    Public: Accessible from anywhere (name)
+
+    Protected: Meant to be accessed within the class or subclass (_name)
+
+    Private: Can only be accessed inside the class (__name)
+
+
+Encapsulation provide data hiding property and security.
+
+TO PERFORM ENCAPSULATION YOU MUST DECLARE VARIABLES AS PRIVATE AND ACCESS THEM FROM PUBLIC METHODS.
