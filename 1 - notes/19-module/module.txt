@@ -1,0 +1,22 @@
+
+
+
+🔹 What is a Module?
+    A module is a file containing Python definitions and functions. It helps in organizing code logically and reusing it across multiple programs.
+
+    ✅ Think of a module as a "toolbox" — it contains tools (functions, variables, classes) you can use in your programs.
+
+🔹 Why Use Modules?
+        Keeps code organized and clean
+
+        Promotes code reusability
+
+        Makes large programs manageable
+
+        Helps in team collaboration (splitting code across files)
+
+🔹 Types of Modules:
+        Built-in modules → e.g., math, datetime, os
+
+        User-defined modules → created by the programmer
+
