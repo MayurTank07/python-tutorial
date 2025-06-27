@@ -1,0 +1,31 @@
+✅ What is Scope in Python?
+    Scope refers to the region of the code where a variable is accessible. In Python, variable scope can be:
+
+    Local (inside a function)
+
+    Global (outside all functions)
+
+    Nonlocal (enclosed in nested functions)
+
+    Class-level (attributes) (inside a class)
+
+When we define variables in a class, their scope and accessibility depend on how we name them.
+
+🔐 Python Class Variable Scope (public, protected, private):
+
+    Python does not enforce access modifiers like other languages (Java/C++), but uses naming conventions:
+
+| Access Level | Naming Convention | Description                                               |
+| ------------ | ----------------- | --------------------------------------------------------- |
+| Public       | `var`             | Accessible from anywhere                                  |
+| Protected    | `_var`            | Meant to be internal; still accessible, but by convention |
+| Private      | `__var`           | Name mangled to prevent direct access                     |
+
+Summary:
+    Python uses naming conventions to simulate access control.
+
+    Public: var
+
+    Protected: _var
+
+    Private: __var (gets name-mangled)
