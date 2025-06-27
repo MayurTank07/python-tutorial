@@ -6,6 +6,8 @@ import expense_tracker as et
 et.add_expense("Tea", 15)
 et.add_expense("Lunch", 120)
 et.add_expense("Transport", 50)
+et.add_expense("Transport", 100)
+et.add_expense("Dinner", 50)
 
 # Display expenses
 print("Your Expenses Today:")
